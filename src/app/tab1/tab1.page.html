@@ -1,0 +1,144 @@
+<!-- <ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Tab 1
+    </ion-title>
+  </ion-toolbar>
+</ion-header> -->
+
+<ion-content [fullscreen]="true">
+  <!-- <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Tab 1</ion-title>
+    </ion-toolbar>
+  </ion-header> -->
+<!-- 
+  <app-explore-container name="Tab 1 page"></app-explore-container> -->
+
+  <div class="tx-head-one">
+    <div class="tx-head-two">
+      <ion-icon class="tx-head-three" name="location-outline"></ion-icon>
+      <ion-label class="tx-head-four">Mumbai</ion-label>
+    </div>
+  </div>
+
+  <circle-progress
+                    class="circle-design" 
+      [percent]="83"
+      [radius]="50"
+      [outerStrokeWidth]="9"
+      [innerStrokeWidth]="4"
+      [outerStrokeColor]="'#78C000'"
+      [innerStrokeColor]="'#efefef'"
+      [animation]="true"
+      [animationDuration]="300"
+    ></circle-progress>
+
+  <div class="head-label">
+    <ion-label class="head-label-tx">Last Synced 2 hrs ago </ion-label>  
+  </div>
+  
+  <div class="options-design">
+    <tr class="options-sub-design">
+      <td class="design-one">
+        <div style="margin-left: 10px; margin-top: 5px; ">
+          <ion-img style="width: 25px; height: 20px; margin-right: 5px; float:left;" 
+          src="assets/img/steps.PNG"></ion-img>
+          <ion-label class="txt-six">Steps</ion-label>
+        </div>
+        <div style="margin-left: 10px; margin-top: 5px; margin-bottom: 5px;">
+          <ion-icon class="co-two" name="location-outline"></ion-icon>
+          <ion-label class="txt-five">
+          <b style="color: #000000; opacity: 1; font-size: 20px;">1824</b> / 7000</ion-label>
+        </div>
+      </td>
+
+      <td style="width: 150px; height: 11px; background-color: white;">
+      </td>
+
+    </tr>
+  </div>
+
+  <div class="options-design">
+    <tr class="options-sub-design">
+      <td class="design-one">
+        <div style="margin-left: 10px; margin-top: 5px; ">
+          <ion-img class="img-two" 
+          src="assets/img/sleep.PNG"></ion-img>
+          <ion-label class="txt-seven">Sleep</ion-label>
+        </div>
+        <div style="margin-left: 10px; margin-top: 5px; margin-bottom: 5px;">
+          <ion-icon style="width: 11px; height: 11px; margin-right: 5px; color: white;" name="location-outline"></ion-icon>
+          <ion-label class="txt-four"><b style="color: #000000; opacity: 1; font-size: 20px;">6</b> hrs 
+          <b style="color: #000000; opacity: 1; font-size: 20px;">30</b> mins</ion-label>
+        </div>
+      </td>
+
+      <td style="width: 150px; height: 11px; background-color: white;">
+      </td>
+
+    </tr>
+  </div>
+
+  <div class="options-design">
+    <tr class="options-sub-design">
+      <td class="design-one">
+        <div style="margin-left: 10px; margin-top: 5px; ">
+          <ion-img style="width: 25px; height: 20px; margin-right: 5px;float:left;" 
+          src="assets/img/calories.PNG"></ion-img>
+          <ion-label style="letter-spacing: 0.18px; font-weight: bold; padding-top: 3px; 
+          color: #000000; opacity: 1; font-size: 15px;">Calories Burnt</ion-label>
+        </div>
+        <div style="margin-left: 10px; margin-top: 5px; margin-bottom: 5px;">
+          <ion-icon style="width: 11px; height: 11px; margin-right: 5px; color: white;" name="location-outline"></ion-icon>
+          <ion-label class="txt-three"><b style="color: #000000; opacity: 1; font-size: 20px;">1456</b> kcal</ion-label>
+        </div>
+      </td>
+
+      <td style="width: 150px; height: 12px; background-color:  #ffffff;">
+        <div style="margin-left: 10px; margin-top: 5px; margin-bottom: 5px;">
+          <ion-label class="txt-two">1100 / 356</ion-label>
+        </div>
+        <div style="margin-left: 10px; margin-top: 5px; margin-bottom: 5px;">
+          <ion-icon style="width: 11px; height: 11px; margin-right: 5px; color: rgb(143, 176, 238);" name="radio-button-on-outline"></ion-icon>
+          <ion-label class="txt-one">Active</ion-label>
+           <ion-icon class="ioc-one" name="radio-button-on-outline"></ion-icon>
+           <ion-label class="txt-one-des">Rest</ion-label> 
+      </div>
+      </td>
+
+    </tr>
+  </div>
+
+  <div class="options-design">
+    <tr class="options-sub-design">
+      <td class="design-one">
+        <div style="margin-left: 10px; margin-top: 5px; ">
+          <ion-img class="img-six" 
+            src="assets/img/meditation.PNG"></ion-img>
+          <ion-label style="letter-spacing: 0.18px; font-weight: bold;
+          color: #000000; opacity: 1; font-size: 15px;">Meditation</ion-label>
+        </div>
+        <div style="margin-left: 10px; margin-top: 5px; margin-bottom: 5px;">
+          <ion-icon style="width: 11px; height: 11px; margin-right: 5px; color: white;"></ion-icon>
+          <ion-label style="letter-spacing: 0.14px;
+          color: #000000; opacity: 0.6; font-size: 12px;">How long you have meditated?</ion-label>
+        </div>
+      </td>
+
+      <td style="width: 150px; height: 11px; background-color: white; margin:0px; padding:0px;">
+        <div style="margin-left: 10px; margin-top:0px; margin-bottom: 0px;">
+          <ion-label style="letter-spacing: 0.14px; color: #000000; opacity: 0.6; font-size: 15px;">
+            <b style="color: #000000; opacity: 1; font-size: 25px;">20</b> mins
+          </ion-label>
+      </div>
+      </td>
+
+    </tr>
+  </div>
+
+  <div>
+    <ion-label class="btn-label">Sync Now</ion-label>
+  </div>
+
+</ion-content>
